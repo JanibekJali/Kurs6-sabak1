@@ -35,7 +35,7 @@ class _CounterPageState extends State<CounterPage> {
       body: Center(
         child: Column(
           children: [
-            SizedBox(height: 100.0),
+            const SizedBox(height: 100.0),
             GestureDetector(
               // (){}
               onTap: () {
@@ -50,7 +50,7 @@ class _CounterPageState extends State<CounterPage> {
                 width: 300.0,
                 child: Text(
                   tekst,
-                  style: TextStyle(fontSize: 30.0),
+                  style: const TextStyle(fontSize: 30.0),
                 ),
               ),
             ),

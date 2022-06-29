@@ -7,8 +7,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:sabak1_tirkeme/counter_app.dart';
-
 import 'package:sabak1_tirkeme/main.dart';
 
 void main() {
